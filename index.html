@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HTML, CSS & Git Basics</title>
+    <meta name="discription" content="HTML, CSS & Git Basics">
+    <meta name="keywords" content="HTML, CSS, TimofeyYakubovich">
+</head>
+<body>
+
+    <article>
+    <div class="pic"><img src= "https://sun9-34.userapi.com/impg/4i9UlIOFR2_KMhE_RMs--mmvzLWJ-iKPmcec7A/fpDbkqqBWg4.jpg?size=688x1080&quality=96&sign=d22c2fdc1b9c83b280b0e1aa6db2598f&type=album" 
+        alt="Picture"></div>
+
+        <h1>Timofey Yakubovich</h1>
+        <div class="cv">
+        <h2>Contacts</h2>
+            <p>Email: yakubovich96@mail.ru<br>
+                Telephone number (A1) +375(29)843-15-84</p>
+        
+        <h2>Shortly about myself</h2>
+            <p>I want to develop in the field of IT technologies.<br>
+                Improve your skills in website and application development.</p>
+
+        <h2>Programming skills</h2>
+            <p>I have little experience in developing applications for android devices on the Unity platform.<br> 
+                I study HTML, CSS, JavaScript.</p>
+
+        <h2>Education</h2>
+            <div class="Education1">
+            <h4>Belarusian-Russian University</h4>
+            <p>Undergraduate 2013 - 2017. Specialty: Mechanical engineering.<br>
+            Magistracy 2017 - 2018. Specialty: Processing of structural materials in mechanical engineering.</p>
+            </div>
+            <div class="Education2">
+            <h4>Institute of technology of metals of National Academy of Sciences of Belarus</h4>
+            <p>Graduate school 2018 - 2021. Specialty: Casting production.</p>
+            </div>
+
+        <div class="Code">
+        <h2>Code example</h2>
+        <p>JS<br>
+            function squareDigits(num){<br>
+                
+                let StrNum = String(num);<br>
+                let result = "";<br>
+            
+                for (let i = 0; i < StrNum.length; i++) {<br>
+                    let squared = parseInt(StrNum[i]) * parseInt(StrNum[i]);<br>
+                    result = result + String(squared);<br>
+                }<br>
+                return parseInt(result);<br>
+              }<br>
+              
+              function findShort(s){<br>
+                let wordsArr = s.split(' '); <br>
+                let shortest = Infinity;<br>
+                for (let i =0; i < wordsArr.length; i++){<br> 
+                    let wordLength = wordsArr[i].length; <br>
+                    if (wordLength < shortest){ <br>
+                        shortest = wordLength;<br>
+                }<br>
+                }<br>
+                return shortest;<br>
+                }</p>
+
+            </div>
+
+        <h2>English level</h2>
+            <p>А1 - Elementary.</p>
+        
+        </div>
+
+    </article>
+
+    <style>
+
+    .pic {
+        height: 300px;
+        width: 200px;
+        margin: auto;
+    }
+
+    .pic img {
+        height: inherit;
+        width: inherit;
+    }
+
+    h1 {
+        width: 400px;
+        height: 60px;
+        margin: auto;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 180%;
+        padding: 20px 0 0 140px;
+    }
+
+    h2 {
+        width: 400px;
+        height: 40px;
+        margin: auto;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 150%;
+    }
+
+    p {
+        width: 400px;
+        height: 60px;
+        margin: auto;
+    }
+
+    .Code {
+        width: 400px;
+        height: 450px;
+        margin: auto;
+    }
+
+    .Code p {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .Education1 {
+        width: 400px;
+        height: 100px;
+        margin: auto;
+    }
+
+    .Education2 {
+        width: 400px;
+        height: 90px;
+        margin: auto;
+    }
+
+    .Education2 p{
+        padding: 20px 0 0 0;
+    }
+
+    .Education1 h4, .Education2 h4 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 100%;
+    }
+
+    h4 {
+        width: 400px;
+        height: 20px;
+        margin: auto;
+    }
+
+    </style>
+
+    
+        
+</body>
+</html>
