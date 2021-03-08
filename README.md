@@ -1,3 +1,3 @@
 https://TimofeyYakubovich.github.io/rsschool-cv/cv
 
-https://TimofeyYakubovich.github.io/rsschool-cv/cv.md
+https://TimofeyYakubovich.github.io/rsschool-cv/index.md
